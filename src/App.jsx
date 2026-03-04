@@ -616,7 +616,7 @@ export default function CommunityBlueprint() {
               The next step is turning this into a real Skool community — with the pricing, the funnel, the call structure, and the lead generation model that fills it.<br /><br />
               <span style={{ color: "#888" }}>That's what Anthony and Matthew do on a free strategy session. You bring this blueprint. They help you build the rest.</span>
             </div>
-            <a href="https://calendly.com" target="_blank" rel="noopener noreferrer" style={{
+            <a href="https://calendly.com/peakplayers/qx-skool-scalin-jam" target="_blank" rel="noopener noreferrer" style={{
               display: "block", width: "100%", background: ORANGE, color: "#fff",
               border: "none", borderRadius: 8, padding: "16px",
               fontFamily: "'DM Sans',sans-serif", fontWeight: 500,

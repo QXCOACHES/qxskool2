@@ -492,7 +492,7 @@ export default function CommunityBlueprint() {
             <div style={{ position: "relative", marginBottom: 24 }}>
               <div style={{ background: "#111", border: "1px solid #1e1e1e", borderRadius: 10, padding: "14px 16px", marginBottom: 8 }}>
                 <div style={{ fontSize: 10, color: "#555", textTransform: "uppercase", letterSpacing: "0.1em", marginBottom: 4 }}>Point A</div>
-                <div style={{ fontSize: 12, color: "#888", lineHeight: 1.6 }}>{a.clientPain? || "Your client's starting point"}</div>
+                <div style={{ fontSize: 12, color: "#888", lineHeight: 1.6 }}>{a.clientPain || "Your client's starting point"}</div>
               </div>
               {phases.map((ph, i) => (
                 <div key={i} style={{ display: "flex", gap: 10, marginBottom: 8 }}>
@@ -514,7 +514,7 @@ export default function CommunityBlueprint() {
                 </div>
                 <div style={{ background: "#111", border: `1px solid ${ORANGE}`, borderRadius: 10, padding: "12px 14px", flex: 1, marginTop: 12 }}>
                   <div style={{ fontSize: 10, color: ORANGE, textTransform: "uppercase", letterSpacing: "0.1em", marginBottom: 4 }}>Point B — The Result</div>
-                  <div style={{ fontSize: 12, color: "#e8e4dc", lineHeight: 1.6 }}>{statement? || "Your promised transformation"}</div>
+                  <div style={{ fontSize: 12, color: "#e8e4dc", lineHeight: 1.6 }}>{statement || "Your promised transformation"}</div>
                 </div>
               </div>
             </div>
